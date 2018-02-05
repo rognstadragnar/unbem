@@ -1,6 +1,6 @@
-<div align="center">
+<div align="center" style="margin: 100px 0">
   <img 
-  style="margin: 100px 0" src="https://raw.githubusercontent.com/rognstadragnar/unbem/master/unbem.png" alt="unbem">
+  src="https://raw.githubusercontent.com/rognstadragnar/unbem/master/unbem.png" alt="unbem">
 </div>
 
 # unbem
