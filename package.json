@@ -1,0 +1,29 @@
+{
+  "name": "unbem",
+  "version": "0.0.1",
+  "description": "A small utility for working with BEM in Javascript",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rognstadragnar/unbem.git"
+  },
+  "keywords": [
+    "bem",
+    "classes",
+    "css",
+    "in",
+    "js",
+    "react",
+    "preact",
+    "utility"
+  ],
+  "author": "Ragnar Rognstad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rognstadragnar/unbem/issues"
+  },
+  "homepage": "https://github.com/rognstadragnar/unbem#readme"
+}
