@@ -2,14 +2,23 @@
   "name": "unbem",
   "version": "0.0.1",
   "description": "A small utility for working with BEM in Javascript",
-  "main": "dist/main.js",
+  "source": "src/main.ts",
+  "main": "dist/unbem.js",
+  "module": "dist/unbem.esm.js",
+  "browser": "dist/unbem.umd.js",
   "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rognstadragnar/unbem.git"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "keywords": [
     "bem",
     "classes",
@@ -25,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/rognstadragnar/unbem/issues"
   },
-  "homepage": "https://github.com/rognstadragnar/unbem#readme"
+  "homepage": "https://github.com/rognstadragnar/unbem#readme",
+  "devDependencies": {
+    "microbundle": "^0.4.3"
+  }
 }
