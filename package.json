@@ -1,6 +1,6 @@
 {
   "name": "unbem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small utility for working with BEM in Javascript",
   "source": "src/main.ts",
   "main": "dist/unbem.js",
