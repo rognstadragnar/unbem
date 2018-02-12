@@ -9,6 +9,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
